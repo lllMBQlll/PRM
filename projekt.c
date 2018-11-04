@@ -17,7 +17,7 @@ int main()
 		y=((float)rand()/RAND_MAX);
 		if(pow(x-0.5,2)+pow(y-0.5,2)<=0.25) N1++;
 		N++;
-		if(i%10000==00)	printf("N=%d \t N/N1=%f\n", N, (float)N1/(float)N);
+		if(i%10000==0)	printf("N=%d \t N/N1=%f\n", N, (float)N1/(float)N);
 		
 	}
 	pi=((4*(float)N1)/(float)N);
